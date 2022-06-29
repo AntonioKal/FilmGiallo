@@ -1,0 +1,70 @@
+@font-face{font-family:GeckoPersonal;
+	src: url(../Fonts/GeckoPersonal.ttf)
+	}
+
+		.arrow {
+		width:70px;
+		margin-left:60px;
+		height:auto; 
+		background-color: white;
+		}
+
+
+		h1 {
+		color:darkmagenta;
+		text-align: center;
+		font-family:district;
+		font-size: 30px 
+		}
+
+		h2 {
+		font-family:geckoPersonal;
+		text-align:center;
+		color:pink;
+		}
+
+		h3 {
+		font-family:cambria;
+		color:white;
+		font-size:30px;
+		}
+
+
+		p {
+		color:pink;
+		font-family:Cambria;
+		font-size: 19px;		
+		}
+		
+		.main {
+		margin:20px auto;
+		width:90%;
+		}
+
+
+		.immagini {
+		width:90%;  
+		display:flex;
+		justify-content:space-evenly;			
+		padding:15px;
+		border-radius: 20px;
+		margin:0 auto;
+		}
+
+		img {
+		width:20%;
+		border-radius:25px;  
+		border:3px double black;
+		opacity: 0.5;
+		}
+
+		img:hover {
+		opacity:unset;
+		cursor: pointer;
+		}
+
+		body {
+		background-color: black;
+		}
+
+
