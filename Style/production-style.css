@@ -5,6 +5,7 @@ src:url(../Fonts/Jokerman.ttf) }
     color: black;
 	font-family:jokerman;
 	text-align:center;
+	text-shadow: 2px 2px 2px red;
 	}
 	
 	.header {
@@ -16,23 +17,22 @@ src:url(../Fonts/Jokerman.ttf) }
 	}
 
 	
-
 	.row {
 	display:flex;
-	justify-content: space-evenly;
-	padding-top:150px;
+	justify-content: space-around;
+	padding-top:140px;
 	}
 
 	ul > li {		
 	list-style: none;
-	line-height: 45px;
+	line-height: 35px;
 	font-size:18px;
     font-family:cambria;
 	}
 	
 	ul > li > a {
 	text-decoration: none;
-	color:navy;
+	color:red;
 	font-size:18px;
     font-family:cambria;
 	}

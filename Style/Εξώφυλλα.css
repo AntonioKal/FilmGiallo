@@ -17,11 +17,12 @@ justify-content: space-evenly;
 }
 
 .gallery > p {
-font-size:16px;
+font-size:18px;
 text-align: center;
 color:pink;
 font-style:italic;
 font-weight:bolder;
+padding-top:80px;
 }
 
 .gallery {
@@ -33,11 +34,12 @@ img {
 width:200px;
 height:auto;
 opacity:0.7;
+transform: rotate(-45deg);
 }
 
 img:hover {
 opacity:unset;
 cursor: pointer;
 transition-duration:1s;
-transform: scale(1.3);
+transform: scale(1.7) rotateX(20deg);
 }
