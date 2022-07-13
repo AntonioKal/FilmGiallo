@@ -7,8 +7,8 @@ height:150px;
 
 .row {
 display:flex;
-justify-content: space-evenly;
-margin-top:40px;
+justify-content: space-around;
+margin-top:70px;
 }
 
 img {
@@ -19,13 +19,13 @@ opacity:0.9;
 
 h2 {
 text-align: center;
-line-height: 0;
-font-size:20px;
+line-height:20px;
+font-size:14px;
 }
 
 p {
 font-family:cambria;
-font-size:16px;
+font-size:13px;
 font-style: italic;
 text-align:center;
 line-height: 0;
